@@ -20,6 +20,7 @@ It's simple to setup on windows. Simply install Visual Studio (2017 preferred) a
 Make sure you install the build-essential package from the repository: 
 ``sudo apt install -y build-essential``
 
+## Configuration Files
 There are two configuration files included inside the folder, these are to be used with the compiled executable.
 
 ## config.json
