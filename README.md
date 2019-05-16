@@ -17,8 +17,11 @@ It is compatible with the following:
 It's simple to setup on windows. Simply install Visual Studio (2017 preferred) and launch the .sln file and press Build!
 
 ### To Compile On Linux
-Make sure you install the build-essential package from the repository: 
-``sudo apt install -y build-essential``
+Make sure you install the build-essential package from the repository: ``sudo apt install -y build-essential``
+
+Once that is done and all setup, navigate to the project folder and type the following command: 
+
+``g++ *.cpp -o Listener.elf -L /usr/lib -lpthread``
 
 ## Configuration Files
 There are two configuration files included inside the folder, these are to be used with the compiled executable.
